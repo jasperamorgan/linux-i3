@@ -69,3 +69,6 @@ Section "InputClass"
         Option "NaturalScrolling" "True"
 EndSection
 ```
+## Two finger touchpad right click
+
+TODO
