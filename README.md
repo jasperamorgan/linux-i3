@@ -25,13 +25,10 @@ TODO: Which apps go to which desktops. Current idea:
 
 9: (Empty)
 
-# Appearance
+# Appearance (
 
-- Fonts (i3/gtk)
-https://wiki.archlinux.org/index.php/Font_configuration
-http://www.webupd8.org/2013/06/better-font-rendering-in-linux-with.html
+1. [Yaru Theme](./yaru-theme.md)
 
-- GTK Theme
 
 # Device configs
 
