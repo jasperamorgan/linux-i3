@@ -1,6 +1,17 @@
 # linux-i3
 Notes and configs for Linux i3 configs
 
+# i3 Config
+
+## Desktops
+
+TODO: Which apps go to which desktops. Current idea:
+
+1: Chat Apps (Slack, MS Teams)  
+2: Email (Thunderbird?)
+3: Browser (Firefox / Brave)
+4: Spacemacs
+
 # Device configs
 
 ## Set the screen resolution for i3.
