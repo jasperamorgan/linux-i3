@@ -8,9 +8,23 @@ Notes and configs for Linux i3 configs
 TODO: Which apps go to which desktops. Current idea:
 
 1: Chat Apps (Slack, MS Teams)  
+
 2: Email (Thunderbird?)
+
 3: Browser (Firefox / Brave)
-4: Spacemacs
+
+4: (Empty)
+
+5: Terminals
+
+6: IDEs (Spacemacs, VS Code)
+
+7: Browsers (Surf, Palemoon)
+
+8: KVM (OSX, Windows) 
+
+9: (Empty)
+
 
 # Device configs
 
