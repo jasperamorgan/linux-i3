@@ -16,3 +16,31 @@ Edit ~/i3/config
 Add `exec --no-startup-id xrandr --output OUTPUT --mode MODE`
 
 Example `exec --no-startup-id xrandr --output eDP1 --mode 2048x1152`
+
+## Set natural mouse/touchpad scrolling
+
+1/ Edit `/usr/share/X11/xorg.conf.d/40-libinput.conf`
+
+2/ Add natural scrolling to the mouse config
+
+```
+Section "InputClass"
+        Identifier "libinput pointer catchall"
+        MatchIsPointer "on"
+        MatchDevicePath "/dev/input/event*"
+        Driver "libinput"
+        Option "NaturalScrolling" "True"
+EndSection
+```
+
+3/ Add natural scrolling to the touchpad config
+
+```
+Section "InputClass"
+        Identifier "libinput touchpad catchall"
+        MatchIsTouchpad "on"
+        MatchDevicePath "/dev/input/event*"
+        Driver "libinput"
+        Option "NaturalScrolling" "True"
+EndSection
+```
