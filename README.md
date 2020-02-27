@@ -8,10 +8,11 @@ Notes and configs for Linux i3.
 TODO: Which apps go to which desktops. Current idea:
 
 1: Email (Thunderbird?)  
+   Chat Apps (Slack, MS Teams)
 
-2: Chat Apps (Slack, MS Teams)
+2: Browser (Firefox / Brave)
 
-3: Browser (Firefox / Brave)
+3: (Empty)
 
 4: (Empty)
 
